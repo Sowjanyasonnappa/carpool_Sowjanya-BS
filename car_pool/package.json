@@ -1,0 +1,19 @@
+{
+  "name": "car_pool",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "backend": "nodemon backend/server.js",
+  "frontend": "cd frontend && npm run dev",
+  "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10"
+  }
+}
